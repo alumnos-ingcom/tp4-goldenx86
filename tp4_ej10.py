@@ -5,7 +5,7 @@
 ################
 
 
-def factores_primo(numero):
+def factores_primos(numero):
     """Devuelve todos los factores primos de un número"""
     i = 1
     while i <= numero:
@@ -24,4 +24,4 @@ def factores_primo(numero):
 if __name__ == "__main__":
     num = int(input("Ingrese el número: "))
     print("Los factores primos son: ")
-    print(factores_primo(num))
+    print(factores_primos(num))
